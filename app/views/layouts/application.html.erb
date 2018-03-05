@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BlogTest</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <script src="//cdn.ckeditor.com/4.4.7/full-all/ckeditor.js"></script> -->
+
+    <!-- <script>hljs.initHighlightingOnLoad();</script> -->
+    <!-- <link href="/app/assets/javascripts/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" rel="stylesheet"/> -->
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
